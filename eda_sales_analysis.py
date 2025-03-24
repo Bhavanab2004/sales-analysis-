@@ -5,7 +5,7 @@ from itertools import combinations
 df = pd.read_csv("C://project//all_data.csv")
 print(df)
 df.dropna(how='all', inplace=True)
-df = df[df['Order Date'].str[0:2] != 'Or']  # remove header rows mixed into data
+df = df[df['Order Date'].str[0:2] != 'Or'] 
 df['Quantity Ordered'] = pd.to_numeric(df['Quantity Ordered'], errors='coerce')
 df['Price Each'] = pd.to_numeric(df['Price Each'], errors='coerce')
 df['Order Date'] = pd.to_datetime(df['Order Date'], format='%m/%d/%y %H:%M')
