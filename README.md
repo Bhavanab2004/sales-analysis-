@@ -34,8 +34,8 @@ Observations:
 Conclusion:
 Urban hubs like San Francisco, LA, and NYC are key markets. These cities likely contribute the most to revenue and deserve priority in logistics, promotions, and customer service planning.
 
-
 3. Order Count by Hour
+   
 ![Screenshot 2025-03-23 010740](https://github.com/user-attachments/assets/ca74f4ca-50af-45e1-a87c-aeaa46f34750)
 
 
